@@ -1,6 +1,6 @@
 # is-opa-gke
 
-# STEPS
+# Steps
 
 1) kubectl apply -f identity-namespace.yaml
 2) kubectl apply -f identity-svc.yaml
