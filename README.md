@@ -11,7 +11,9 @@
 7) kubectl apply -f identity-server-ingress.yaml
 
 Get the Host names and IP address
+
 8) kubectl get ing -n wso2
+
 Add wso2is <IP address> to /etc/hosts
 
 https://wso2is/carbon/admin/login.jsp
