@@ -45,8 +45,7 @@ spec:
           mountPath: /policies
           name: example-policy
       - name: wso2is
-        image: wso2/wso2is:5.10.0
-        livenessProbe:
+        image: nimashafdo/invokeopais
           exec:
             command:
             - /bin/sh
